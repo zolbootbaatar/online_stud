@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 8px;
+  border: 2px solid #b0ddfd;
+  padding: 5px 10px;
+  background-color: #e0f2ff95;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  background: #fafafa;
+  /* padding: 10px; */
+  align-items: start;
+  justify-content: center;
+  padding-bottom: 10px;
+  border: 5px;
+}
+
+.button {
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #e0f2ff;
+  color: #333;
+  box-shadow: 0px 0px 5px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: ease-in-out 330ms;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.two-line {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider {
+  border: 1px solid #d3d3d3;
+  height: 1;
+}

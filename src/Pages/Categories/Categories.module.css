@@ -1,0 +1,23 @@
+.container {
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 150px;
+}
+
+.category {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category:hover {
+    background: #f0f0f0;
+}
